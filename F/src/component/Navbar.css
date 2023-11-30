@@ -1,0 +1,236 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+
+  
+  .navbar-link1 {
+    text-decoration: none;
+    color: #fffefe;
+    margin-right: 10px;
+    background-color: #000000;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .navbar-button:hover {
+    background-color: #555;
+  }
+
+  .button{
+    background-color: #c16262;
+  }
+   */
+
+   /* .navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #938b8b;
+    color: #fff;
+    height: 100%;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .navbar-link:hover {
+    background-color: #555;
+  }
+  */
+
+
+  /* SideNavbar.css */
+/* 
+.side-navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #3f576e;
+  padding-top: 50px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+ 
+}
+
+.side-navbar.menu-open {
+  transform: translateX(0);
+}
+
+.side-navbar.menu-closed {
+  transform: translateX(-100%);
+}
+
+.side-navbar .ant-menu {
+  background-color:transparent;
+  border: none;
+}
+
+.side-navbar .ant-menu-item {
+  margin: 0;
+  
+}
+
+.side-navbar .ant-menu-item a {
+  color: #ffffff;
+}
+
+.menu-icon{
+ 
+  margin-left: 10px;
+  background-color: #bfbfbf;
+  position: fixed;
+  top: 10px;
+ 
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+
+
+.img1{
+ width: 40px; 
+  height: 40px; 
+  object-fit: cover; 
+  object-position: 50% 50%;
+  
+  
+}
+
+
+
+.navbar {
+ 
+  align-items: center;
+ 
+}
+
+
+.top-section {
+  background-color: #e9e9e9;
+  height: 0px; }
+
+
+.navbar-right.move-icon-inside {
+  transform: translateX(200px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-icon {
+  margin-left: 10px;
+  background-color: #bfbfbf;
+  position: fixed;
+  top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.side-navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #3f576e;
+  padding-top: 50px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.side-navbar .ant-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.side-navbar .ant-menu-item {
+  margin: 0;
+}
+
+.side-navbar .ant-menu-item a {
+  color: #ffffff;
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+  */
+
+
+  
+  /* sidebar */
+  .sidebar {
+    width: 250px; /* Customize the width of the sidebar */
+    height: 200vh;
+    background-color: #f9f9f9; /* Customize the background color */
+    color: #f5f5f5; /* Customize the text color */
+  }
+  
+  .menu-item {
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: #1890ff; /* Customize the hover background color */
+  }
+  
+  .menu-item.active {
+    background-color: #ffffff; /* Customize the active menu item background color */
+    font-weight: bold;
+  }
+
+   
+  .d{
+    background-color: aliceblue;
+  }

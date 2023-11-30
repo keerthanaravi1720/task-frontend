@@ -1,0 +1,92 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      ="mysql://root:@localhost:3306/db"
+}
+
+
+  
+
+// model User {
+//   id       Int      @id @default(autoincrement())
+//   name     String
+//   contact  String
+//   endDate  DateTime @db.DateTime(0)
+//   amount   Int
+//   date     DateTime @db.DateTime(0)
+//  status    String  @default("pending")
+// }
+
+// model User {
+//   id       Int      @id @default(autoincrement())
+//   name     String
+//   contact  String
+//   endDate  DateTime @db.Date
+//   amount   Int
+//   date     DateTime @db.Date
+//   status   String   @default("pending")
+// }
+
+
+
+// model User {
+//   id       Int             @id @default(autoincrement())
+//   name     String
+//   contact  String
+//   endDate  DateTime @map("endDate")  // Use the existing field "endDate" and map it to the database column "endDate"
+//   amount   Int
+//   date     DateTime @map("date")     // Use the existing field "date" and map it to the database column "date"
+//   status   String          @default("pending")
+// }
+
+
+// model User {
+//   id       Int      @id @default(autoincrement())
+//   name     String
+//   contact  String
+//   endDate  DateTime @db.Date
+//   amount   Int
+//   date     DateTime @db.Date
+//   status   String   @default("pending")
+// }
+
+
+model User {
+  id       Int      @id @default(autoincrement())
+  name     String
+  contact  String
+  endDate  DateTime  @default(now()) @db.Date
+  amount   Int
+  date     DateTime  @default(now()) @db.Date
+  status   String    
+}
+
+
+
+
+
+
+// Define a custom type called "DateWithoutTime"
+
+
+
+
+
+// model Table {
+//   id      Int     @id @default(autoincrement())
+//   name    String
+//   contact String
+// }
+
+
+model Admin {
+  id       Int     @id @default(autoincrement())
+  name     String
+  password String
+}

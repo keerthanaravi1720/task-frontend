@@ -1,0 +1,93 @@
+
+
+/* Make the table responsive and centered */
+.ant-table-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  /* Adjust the table layout for smaller screens */
+  @media screen and (max-width: 767px) {
+    .ant-table-thead th {
+      white-space: nowrap;
+    }
+    .ant-table-cell {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .ant-table-scroll .ant-table-body {
+      overflow-x: auto;
+    }
+  }
+  
+
+ .tableContainerStyles  {
+  max-width: '100%';
+  overflow-x: auto;
+ 
+};
+
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-input-container {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.search-button-container {
+  flex: 1;
+}
+
+/* Add media queries for responsiveness */
+@media (min-width: 768px) {
+  .search-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search-input-container {
+    margin-right: 10px;
+    flex: 2;
+  }
+
+  .search-button-container {
+    flex: 1;
+  }
+}
+
+
+
+/* style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }} */
+
+/* crudStyles.css */
+
+
+/* Navbar.css (or any other CSS file) */
+
+/* Styles for the main container that wraps the Sidebar and the table */
+.main-container {
+  display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+/* Styles for the Sidebar */
+.sidebar {
+  /* Add any styles you need for the Sidebar */
+  /* For example, you can set a fixed width, background color, etc. */
+  width: 200px; /* Adjust the width as needed */
+  background-color: #f0f0f0; /* Sample background color, replace with your own */
+}
+
+/* Styles for the table container */
+.table-container {
+  /* Add any styles you need for the table container */
+  /* This div will take up the remaining space */
+  flex: 1; /* Use flex: 1 to make it take up the available space */
+  padding: 20px; /* Add padding to separate the table from the Sidebar */
+}

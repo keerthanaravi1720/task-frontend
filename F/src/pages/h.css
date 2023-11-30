@@ -1,0 +1,40 @@
+/* Custom CSS for the button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .crud-button {
+    /* background-color: #1890ff; */
+    color: #000000;
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    width: 200px;
+    border-color:rgb(252, 222, 188);
+  }
+  
+  .crud-button:hover {
+    background-color: #a6d0f4;
+    color: black;
+  }
+  
+  /* .crud-button:focus {
+    outline: none;
+  } */
+  
+  .light{
+    background-color: rgb(255, 249, 241)
+  }
+
+  .img{
+    margin-left: 35px;
+  }
+
+  /* ... Rest of the styles ... */

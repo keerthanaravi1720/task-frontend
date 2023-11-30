@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `user` MODIFY `endDate` DATETIME(3) NOT NULL,
+    MODIFY `date` DATETIME(3) NOT NULL;

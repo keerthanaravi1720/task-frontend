@@ -1,0 +1,366 @@
+.glassmorphism-form {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  height: 400px;
+  /* margin-top: 50px; */
+  
+}
+
+.glassmorphism-form h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #000000;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #4ca1af;
+  color: #443a3a;
+  border-radius: 8px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+ 
+}
+button:hover{
+  color: aliceblue;
+}
+
+@media (max-width: 480px) {
+  .glassmorphism-form {
+    width: 90%;
+    max-width: 350px;
+  }
+  
+  .u {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+input {
+  border-color: #000000;
+  border-radius: 8px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.card {
+  
+  padding: 20px;
+  margin-top: 10px;
+}
+.card1{
+  margin-top: 35px;
+}
+
+.shapes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.shape {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.shape1 {
+  background-color: #f44336;
+}
+
+.shape2 {
+  background-color: #2196f3;
+}
+
+.shape3 {
+  background-color: #4caf50;
+}
+
+
+
+.shape4 {
+  background-color: #217575;
+}
+
+.shape5 {
+  background-color: #f36721;
+}
+
+.shape6 {
+  background-color: #9e4caf;
+}
+
+p{
+  text-align: center;
+}
+
+.fmart {
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(48, 67, 121);
+}
+
+@media (max-width: 480px) {
+  .glassmorphism-form {
+    width: 90%;
+    max-width: 350px;
+    margin-top: 20px; /* Adjust the margin for smaller screens */
+  }
+}
+
+/* Login.css
+.glassmorphism-form {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.glassmorphism-form h2 {
+  color: #000000;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #000000;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #4ca1af;
+  color: #443a3a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: aliceblue;
+}
+
+@media (max-width: 480px) {
+  .glassmorphism-form {
+    width: 90%;
+    max-width: 350px;
+  }
+  
+  .u {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+input {
+  border-color: #000000;
+  border-radius: 8px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+} */
+
+/* App.css */
+
+/* Media query for responsive card layout */
+/* @media (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .card {
+    flex-basis: 200px;
+  }
+} */
+
+
+.h1{
+text-align: center;
+color:#8b4444
+}
+.h2{
+  text-align: center;
+  color: rgb(152, 127, 94);
+}
+.butn{
+  margin-left: 1%;
+  margin-top: 30px;
+}
+.h3{
+  color:olivedrab;
+  text-align: center;
+}
+
+
+.card-hover {
+  transition: transform 0.2s;
+}
+
+.card-hover:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .butn {
+    margin: 0 auto;
+    display: block;
+    /* margin-left: -100px; */
+  }
+  .card-hover {
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .line-chart-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* 
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cards-row {
+  display: flex;
+  object-position: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 650px; 
+  margin: 0 auto;
+}
+
+.card-hover {
+  flex: 1;
+  transition: transform 0.2s;
+}
+
+.card-hover:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+} */
+
+
+
+/* App.css */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card-hover {
+  flex: 1;
+  transition: transform 0.2s;
+}
+
+.card-hover:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card-hover {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .cards-row {
+    flex-direction: column;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .butn {
+    margin: 0 auto;
+    display: block;
+   
+  }
+  .card-hover {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .line-chart-container {
+    display: flex;
+    justify-content: center;
+  }
+} 
+

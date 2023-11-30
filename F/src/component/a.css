@@ -1,0 +1,59 @@
+/* Add these CSS styles in a separate CSS file or inside your component */
+.ca {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* background-color: rgb(237, 233, 230); */
+   /* border-color: black; */
+
+  }
+  .ca:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+  }
+  
+  .ca1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    /* text-align: center; */
+  }
+  
+  .profile-info {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .edit-profile-button {
+    margin-top: 16px;
+    /* margin: 0 auto; */
+    background-color: rgb(240, 237, 234);
+    width: 200px;
+    border-color: black;
+    
+  }
+  .edit-profile-button:hover{
+    color: whitesmoke;
+  }
+
+
+  .more-icon {
+    font-size: 24px;
+  }
+
+ 
+  
+  /* Add media query for responsive design */
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      max-width: 100%;
+    }
+  }
+  

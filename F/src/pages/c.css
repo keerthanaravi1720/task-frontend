@@ -1,0 +1,200 @@
+.calendar {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-header button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .weekday {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .day {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .day.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .empty {
+    visibility: hidden;
+  }
+  
+
+  /* Calendar.css */
+
+/* ... Existing styles ... */
+/* Calendar.css */
+
+/* .calendar {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-header h2 {
+    margin: 0;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .weekday {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .day {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .day.disabled {
+    color: #ccc;
+    cursor: default;
+  }
+  
+  .selected-date-schedule {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+
+   */
+
+
+   /* calendar.css */
+
+.calendar {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    object-position: right;
+margin-left: 50px;
+
+
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+  }
+  
+  .weekday {
+    text-align: center;
+  }
+  
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .disabled {
+    background-color: #f2f2f2;
+    pointer-events: none;
+  }
+  
+  .empty {
+    height: 40px;
+  }
+  
+  .schedule-notepoint {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .event-card-container {
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    background-color: #f2f2f2;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+   
+.selected-date-schedule{
+    width:200px;
+   
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+  /* c.css */
+.custom-card {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s;
+  border-color: blue;
+  margin-left: 10px;
+  height: 200px;
+}
+
+.custom-card:hover {
+  transform: scale(1.1);
+}
+
+h1{
+  text-align: center;
+  color:#8b4444
+  }

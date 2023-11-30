@@ -1,0 +1,137 @@
+
+
+.sidebar1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #9f8484;
+    padding: 20px;
+    z-index: 1000;
+    color: rgb(0, 0, 0);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+/*   
+  .main-content {
+    padding-left: 20px; 
+    transition: margin-left 0.3s ease;
+  } */
+  
+  .show-sidebar .sidebar1 {
+    transform: translateX(0);
+  }
+/*   
+  .show-sidebar .main-content {
+    margin-left: 250px;
+  }
+   */
+  .menu-icon1 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+ 
+
+  /* Nav.css */
+
+.main-content {
+    display: flex; /* Use flexbox to display the cards in a row */
+    flex-wrap: wrap; /* Wrap the cards to the next line if necessary */
+    padding-left: 250px; /* Add left padding to accommodate the sidebar */
+    transition: padding-left 0.3s ease;
+  }
+  
+  .show-sidebar .main-content {
+    padding-left: 0; /* Reduce left padding to make room for the sidebar when visible */
+  }
+  
+  .cars-container {
+    display: flex; /* Use Flexbox to display cards horizontally */
+    flex-wrap: wrap; /* Wrap the cards to the next line if necessary */
+    justify-content: space-around; /* Distribute the cards evenly */
+    transition: width 0.3s ease; /* Add transition for smooth width change */
+  }
+  
+  .show-sidebar .cards-container {
+    width: calc(100% - 250px); /* Adjust the width of the cards when the sidebar is visible */
+  }
+  
+  .car {
+    flex: 0 0 calc(25% - 16px); /* Set the width of each card to 25% of the container minus the margin */
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px; /* Add some margin between the cards */
+    text-align: center;
+    transition: flex 0.3s ease; /* Add transition for smooth width change */
+  }
+  
+  .show-sidebar .car {
+    flex: 0 0 calc(25% - 16px); /* Adjust the width of the cards when the sidebar is visible */
+  }
+  
+
+  /* vending-machine.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.vending-machine {
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.vending-machine h2 {
+  margin-bottom: 10px;
+}
+
+.vending-machine p {
+  margin: 5px 0;
+}
+
+.vending-machine button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.vending-machine button:hover {
+  background-color: #0d47a1;
+}
+
+.vending-machine button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+

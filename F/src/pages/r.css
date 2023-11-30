@@ -1,0 +1,320 @@
+.i{
+    width: 200px;
+}
+
+
+.i2{
+    width: 200px;
+}
+
+/* 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    border-color: black;
+
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+   */
+
+
+   /* RevenuePage.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .card4 {
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .horizontal-cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+/* r.css */
+
+/* Container styles */
+.container {
+  width: 1200px;
+  /* margin: 0 auto; */
+  padding: 20px;
+}
+
+/* Input Section styles */
+.input-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.input-card > div {
+  margin: 5px;
+}
+
+/* Expense items styles */
+.expenses-list {
+  margin-top: 10px;
+}
+
+/* Submit button style */
+.submit-button {
+  margin-top: 10px;
+ 
+}
+
+/* Chart container styles */
+.chart-container {
+  margin-top: 20px;
+ 
+}
+
+.b
+{
+  border-color: rgb(103, 108, 201);
+ background-color:  bisque;
+}
+
+ 
+.b1
+{
+ border-color: rgb(103, 108, 201);
+ background-color: bisque;
+} 
+
+
+/* ResultCard.css */
+.result-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  height: 150px;
+  border-color: rgb(41, 45, 109);
+  color:rgb(56, 60, 122);
+ 
+
+}
+
+.result-card:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+/* r.css */
+.input-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px; /* Adjust the maximum width based on your preference */
+  margin: 0 auto; /* Center the card horizontally */
+  padding: 10px; /* Add some padding to the card */
+  background-color: #f0f0f0; /* Set the background color of the card */
+  border: 1px solid #ddd; /* Add a border to the card */
+  border-radius: 5px; /* Round the corners of the card */
+ 
+}
+
+.input-card label {
+  font-weight: bold; /* Make the label text bold */
+}
+
+.input-card input {
+  width: 100%; /* Make the input fields occupy the full width of the card */
+  padding: 5px; /* Add some padding to the input fields */
+}
+
+.input-card .b {
+  margin-top: 10px; /* Add some space between the input fields and the button */
+}
+
+/* r.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 50px; Adjust the margin as needed */
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  /* border-radius: 10px; */
+}
+
+/* Add other styles as needed */
+
+
+/* 
+.main-container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  border-color: rgb(228, 102, 102);
+  height: 100px;
+  margin-top: 30px;
+}
+
+.card-container .ant-card {
+  flex: 1 0 300px;
+  max-width: 230px;
+  border-color: rgb(228, 102, 102);
+  margin-left: 10px;
+} */
+
+
+.main-container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  /* border-color: rgb(228, 102, 102); */
+  height: 100px;
+  margin-top: 30px;
+}
+
+/* Adjust individual card styles as needed */
+.card-container .ant-card {
+  flex: 1 0 250px;
+  max-width: 230px;
+  border-color: rgb(228, 102, 102);
+  margin-left: 10px;
+  cursor: pointer; /* Add the pointer cursor */
+  transition: transform 0.2s; /* Add a transition for smooth hover effect */
+}
+
+/* Add a hover effect for the cards */
+.card-container .ant-card:hover {
+  transform: scale(1.05); /* Increase the card size on hover */
+}
+
+filter:hover{
+  color:red
+}
+
+
+/* table.css */
+
+/* table.css */
+
+.table-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%; 
+  max-width: 1200px; /* Change the width value to 90% */
+}
+
+/* Define any other custom styles for the table here */
+
+
+/* Define any other custom styles for the table here */
+
+
+/* table.css (or your preferred CSS file) */
+.ant-table-cell {
+  font-size: 14px;
+  padding: 10px;
+  /* Add any other styles you want to apply to the table cells */
+}
+
+/* Additional styles for specific columns */
+.ant-table-cell.date {
+  font-weight: bold;
+  color:red;
+}
+
+/* You can add styles for other columns using their corresponding class names (.month, .amount, .totalRevenue) */
